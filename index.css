@@ -98,10 +98,8 @@ body {
   }
   
   .text-box {
-    width: 60%;
-    float: left;
-    padding:  40px;
-      margin: 20px;  
+ 
+    padding:  0px 40px;
   
   }
   .img-circle{
