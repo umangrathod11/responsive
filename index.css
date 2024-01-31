@@ -185,12 +185,45 @@ body {
     nav ul {
         flex-direction: column;
         text-align: center;
-    }
-
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+        margin: 60px;
+      }
+      
+      nav {
+        text-align: center;
+      }
+      
+      .nav-container {
+        background-color: #333;
+        padding: 15px;
+      }
+      
+     
+      nav ul li {
+        margin: 10px 0;
+        transition: transform 0.3s ease; /* Apply transition for a smoother effect */
+      }
+      
+      nav ul li:hover {
+        transform: scale(1.1);
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        transition: color 0.3s ease, transform 0.3s ease; /* Add transition for both color and transform */
+        font-size: 16px;
+      }
+      
+      nav ul li a:hover {
+        color: #4CAF50;
+        transform: scale(1.2); 
+      }
+      
+      nav ul li:not(:last-child) {
+        border-bottom: 1px solid #555;
+        padding-bottom: 10px;
+      }
     .logo img{
         width: 30% !important;
       }
@@ -205,7 +238,8 @@ body {
         background-color: rgba(0, 0, 0, 0.7); 
         text-align: center;
         z-index: 1;
-        color: #fff;    }
+        color: #fff;  
+      }
 
         .nav-item .show {
             display: flex;
@@ -213,26 +247,22 @@ body {
             justify-content: center;
           }
           
-          /* Navigation List Item Styles */
           .nav-item li {
             margin: 20px 0;
           }
           
-          /* Navigation List Link Styles */
-          /* Navigation List Link Styles */
+       
           .nav-item a {
+
             text-decoration: none;
             color: #fff;
             font-size: 18px;
             font-weight: bold;
-            border-color: cadetblue;
-            transition: color 0.3s ease, border-color 0.3s ease; /* Smooth color and border color transition */
           }
           
-          /* Hover effect for Navigation List Links */
           .nav-item a:hover {
-            color: #ffcc00; /* Change color on hover */
-            border-color: #ffcc00; /* Change border color on hover */
+            color: #ffcc00; 
+            border-color: #ffcc00; 
           }
 
           .burger-menu {
