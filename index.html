@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+         <div class="header-wrapper">
+            <div class="logo">
+                <img src="https://th.bing.com/th?id=OIP.wikSBI_o369dOT6FdcejAQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2" alt="Your Logo">
+              </div>
+             <div class="nav-item">
+                <nav>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">Menu</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+
+                  </nav>
+
+             </div>
+             <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
+
+         </div>
+        </div>
+      </header>
+
+
+      <section class="home-page">
+        <div class="contaner">
+            <div class="home-wrapper">
+                <div class="text-box">
+                  <h1>Enjoy Our
+                    Delicious Meal</h1>
+                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <span class="btn btn-dark">BOOK A TABLE</span>
+                </div>
+                <div class="img-circle">
+                    <img src="/images/hero.png" alt="home-images" id="myImage" >
+                  </div>
+                  
+            </div>
+        </div>
+      </section>
+    
+      <section class="second-page">
+        <div class="container">
+            <div class="second-wrapper">
+                <div class="resturant-box">
+                    <img src="/images/chef-svgrepo-com (1).svg" alt="">
+                    <h3>
+                        Master Chefs</h3>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+                <div class="resturant-box">
+                    <img src="/images/food-restaurant-svgrepo-com.svg" alt="">
+                    <h3>
+                        Master Chefs</h3>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+                <div class="resturant-box">
+                    <img src="/images/secure-delivery-delivery-truck-guaranteed-delivery-insured-delivery-svgrepo-com.svg" alt="">
+                    <h3>
+                        Master Chefs</h3>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+                <div class="resturant-box">
+                    <img src="/images/earth-grid-with-24-hours-sign-and-circle-of-arrows-around-svgrepo-com.svg" alt="">
+                    <h3>
+                        Master Chefs</h3>
+                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <script>
+        function toggleMenu() {
+    var navItem = document.querySelector('.nav-item');
+    navItem.style.display = (navItem.style.display === 'none' || navItem.style.display === '') ? 'flex' : 'none';
+}
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the image element
+    var image = document.getElementById("myImage");
+
+    // Set the rotation to 360 degrees after a short delay
+    setTimeout(function() {
+      image.style.transform = "rotate(360deg)";
+    }, 100);
+  });
+    </script>
+</body>
+</html>
