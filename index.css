@@ -341,7 +341,6 @@ body {
     .left-part, .right-part {
         width: 100%;
         height: auto;
-        /* padding: 30px; */
     }
 
    
@@ -400,30 +399,28 @@ body {
       }
       .menu-wrapper {
         flex-direction: column;
-        justify-content: space-around;
-      }
-    
-      .menu-wrapper > div {
-        margin: 0;
-      }
-    
-      
-    
-    
-     
-     
-    
-      .menu-left,
-      .menu-right {
-        display: flex;
-        flex-wrap: wrap;
-        width: 70%;
-      }
-    
-      .menu-right {
-        margin-left: 20px;
+        /* width: 100%; */
+        justify-content: flex-start;
       }
    
+    .brekfast-menu{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+      .menu-left .menu-item{
+        width: 80%;
+        
+        
+      }
+    
+      .menu-right .menu-item{
+        width: 80%;
+        
+      }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -507,6 +504,8 @@ body {
 
 .about {
     padding: 10px;
+    background-color: #1d394c;
+
 }
 
 
@@ -639,7 +638,6 @@ padding-left: 20px;}
 .menu-list {
   display: flex;
   justify-content: center;
-  padding: 20px; /* Add padding to the menu-list */
 }
 
 .brekfast-menu {
@@ -656,6 +654,7 @@ padding-left: 20px;}
   display: flex;
   align-items: center;
   margin-left: 20px;
+  margin-top: 10px;
   padding: 15px; /* Add padding to each menu item */
   border: 1px solid #ddd; /* Add a border for separation */
   border-radius: 8px; /* Add border-radius for rounded corners */
