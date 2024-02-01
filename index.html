@@ -1,107 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-         <div class="header-wrapper">
-            <div class="logo">
-                <img src="https://th.bing.com/th?id=OIP.wikSBI_o369dOT6FdcejAQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2" alt="Your Logo">
+  <header>
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <img
+            src="https://th.bing.com/th?id=OIP.wikSBI_o369dOT6FdcejAQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2"
+            alt="Your Logo">
+        </div>
+        <div class="nav-item">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+
+          </nav>
+
+        </div>
+        <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
+
+      </div>
+    </div>
+  </header>
+
+
+  <section class="home-page">
+    <div class="contaner">
+      <div class="home-wrapper">
+        <div class="text-box">
+          <h1>Enjoy Our
+            Delicious Meal</h1>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum
+            et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.Diam dolor diam ipsum sit. Aliqu
+            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore
+            erat amet.</p>
+          <span class="btn btn-dark">BOOK A TABLE</span>
+        </div>
+        <div class="img-circle">
+          <img src="/images/hero.png" alt="home-images" id="myImage">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="second-page">
+    <div class="container">
+      <div class="second-wrapper">
+        <div class="resturant-box">
+          <img src="/images/chef-svgrepo-com (1).svg" alt="" class="overlay">
+          <h3>
+            Master Chefs</h3>
+          <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="resturant-box">
+          <img src="/images/food-restaurant-svgrepo-com.svg" alt="" class="overlay">
+          <h3>
+            Master Chefs</h3>
+          <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="resturant-box">
+          <img src="/images/secure-delivery-delivery-truck-guaranteed-delivery-insured-delivery-svgrepo-com.svg" alt=""
+            class="overlay">
+          <h3>
+            Master Chefs</h3>
+          <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="resturant-box">
+          <img src="/images/earth-grid-with-24-hours-sign-and-circle-of-arrows-around-svgrepo-com.svg" alt=""
+            class="overlay">
+          <h3>
+            Master Chefs</h3>
+          <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="left-part">
+          <div class="image-first-two">
+            <div class="img-1">
+              <img src="/images/about-1.jpg" alt="">
+            </div>
+            <div class="img-2">
+              <img src="/images/about-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="image-second-two">
+            <div class="img-3">
+              <img src="/images/about-3.jpg" alt="">
+            </div>
+            <div class="img-4">
+              <img src="/images/about-4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="right-part">
+      <h1>--- About Us ---
+          </h1>
+          <h2>Welcome to Restoran
+          </h2>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et
+            lorem et sit, sed stet lorem sit.</p>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum
+            et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+          <div class="years-ex">
+            <div class="ex-15">
+              <div>
+                <h1>15</h1>
+
               </div>
-             <div class="nav-item">
-                <nav>
-                    <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Service</a></li>
-                      <li><a href="#">Menu</a></li>
-                      <li><a href="#">Contact</a></li>
-                    </ul>
-
-                  </nav>
-
-             </div>
-             <div class="burger-menu" onclick="toggleMenu()">&#9776;</div>
-
-         </div>
-        </div>
-      </header>
-
-
-      <section class="home-page">
-        <div class="contaner">
-            <div class="home-wrapper">
-                <div class="text-box">
-                  <h1>Enjoy Our
-                    Delicious Meal</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <span class="btn btn-dark">BOOK A TABLE</span>
-                </div>
-                <div class="img-circle">
-                    <img src="/images/hero.png" alt="home-images" id="myImage" >
-                  </div>
-                  
+              <div>
+                <p> Years Experience
+                </p>
+              </div>
             </div>
+            <div class="ex-15">
+              <div>
+                <h1>50</h1>
+
+              </div>
+              <div>
+                <p>popular master chef </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="menu">
+  <div class="container">
+    <h1>--- Food Menu ---</h1>
+    <h1>Most Popular Items
+    </h1>
+    <div class="menu-wrapper">
+      <div class="breakfast" onclick="toggleMenu('.breakfast-menu')">
+        <div class="img">
+            <img src="/images/breakfast.png" alt="">
+           </div>
+           <div class="info">
+            <h2>popular breakfast</h2>
+           </div>
+        </div>
+        <div class="lunch" onclick="toggleMenu('.lunch-menu')">
+          <div class="img">
+            <img src="/images/lunch.png" alt="">
+           </div>
+           <div class="info">
+            <h2>popular lunch</h2>
+           </div>
+        </div>
+        <div class="dinner" onclick="toggleMenu('.dinner-menu')">
+          <div class="img">
+            <img src="/images/dinner.png" alt="">
+           </div>
+           <div class="info">
+            <h2>popular dinner</h2>
+           </div>
+        </div>
+    </div>
+    <div class="menu-list breakfast-menu">
+      <div class="brekfast-menu">
+        <div class="menu-left">
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-2.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-3.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-4.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-5.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-right">
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-6.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-7.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-8.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu img">
+              <img src="/images/menu-4.jpeg" alt="">
+            </div>
+            <div class="menu info">
+              <span>chicken burger</span>
+              <span>$115</span>
+              <p>Ipsum ipsum clita erat amet dolor justo diam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
     
-      <section class="second-page">
-        <div class="container">
-            <div class="second-wrapper">
-                <div class="resturant-box">
-                    <img src="/images/chef-svgrepo-com (1).svg" alt="">
-                    <h3>
-                        Master Chefs</h3>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                </div>
-                <div class="resturant-box">
-                    <img src="/images/food-restaurant-svgrepo-com.svg" alt="">
-                    <h3>
-                        Master Chefs</h3>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                </div>
-                <div class="resturant-box">
-                    <img src="/images/secure-delivery-delivery-truck-guaranteed-delivery-insured-delivery-svgrepo-com.svg" alt="">
-                    <h3>
-                        Master Chefs</h3>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                </div>
-                <div class="resturant-box">
-                    <img src="/images/earth-grid-with-24-hours-sign-and-circle-of-arrows-around-svgrepo-com.svg" alt="">
-                    <h3>
-                        Master Chefs</h3>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                </div>
-            </div>
-        </div>
-      </section>
-
-
-      <script>
-        function toggleMenu() {
-    var navItem = document.querySelector('.nav-item');
-    navItem.style.display = (navItem.style.display === 'none' || navItem.style.display === '') ? 'flex' : 'none';
-}
+  </div>
+</section>
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the image element
-    var image = document.getElementById("myImage");
 
-    // Set the rotation to 360 degrees after a short delay
-    setTimeout(function() {
-      image.style.transform = "rotate(360deg)";
-    }, 100);
-  });
-    </script>
+
+
+  <script>
+    function toggleMenu() {
+      var navItem = document.querySelector('.nav-item');
+      navItem.style.display = (navItem.style.display === 'none' || navItem.style.display === '') ? 'flex' : 'none';
+    }
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get the image element
+      var image = document.getElementById("myImage");
+
+      // Set the rotation to 360 degrees after a short delay
+      setTimeout(function () {
+        image.style.transform = "rotate(360deg)";
+      }, 100);
+    });
+
+
+   
+
+  </script>
 </body>
+
 </html>
